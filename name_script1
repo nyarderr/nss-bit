@@ -1,0 +1,30 @@
+# take home assignment given to us by our facilitator Mr. Derrick.
+
+# Exerxise 1
+# calling dslabs package from the library
+library(dslabs)
+#calling murders data set
+data(murders)
+# checking the structure of the murders data set
+str(murders)
+# answer for the obj
+#c
+# checking the column names of the data set
+names(murders)
+#accessing the state abb to the object a
+a <- murders$abb
+# checking the class of the object a
+class(a)
+#using the square bracket to access the state abb and assign it to b
+b <- murders[,2]
+# checking the identity of the object a and b
+identical(a,b)
+# checking the data type of the state region
+class(murders$region)
+#checking the number of regions for the state region
+length(levels(murders$region))
+# creating a table for the state per region
+table(state.region)
+
+
+
