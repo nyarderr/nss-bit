@@ -1,5 +1,5 @@
 ##Exercise
-##1 loading the librs=ary and data
+##1 loading the library and data
 library(dslabs)
 data(murders)
 murders_rate <- murders$total / murders$population * 100000

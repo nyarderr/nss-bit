@@ -6,11 +6,12 @@ temp <- c(35,88,42,84,88,30)
 temp
 
 ##Q2 vectors with city names
+
 city <- c("beijing","lagos","paris","rio_de_janeiro","san_juan", "toronto")
 
 ##Q3 
 names(city) <- temp
-names(city)
+city
 
 ##Q4 using brackets
 city[1:3]
